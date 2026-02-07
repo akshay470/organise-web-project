@@ -1,0 +1,42 @@
+footer {
+    font-family: "San Francisco", sans-serif;
+    background-color: #1a1a1a !important;
+  }
+  
+  .linkedin-logo {
+    width: 18px; height: 18px;
+    margin-right: 8px;
+    transition: all 0.3s ease;
+  }
+  .linkedin-logo:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+  }
+  
+  .legal a {
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+  .legal a:hover {
+    color: #8c52ff !important;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      text-align: center !important;
+    }
+    #footer-logo {
+      margin-bottom: 1.5rem;
+    }
+    .col-md-5 {
+      margin-top: 2rem;
+    }
+  }
+  .text-purple {
+    color: #8c52ff !important;
+  }
+  .border-top {
+    border-color: rgba(255,255,255,0.1) !important;
+  }
+  
